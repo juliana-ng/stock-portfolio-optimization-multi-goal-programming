@@ -2,7 +2,7 @@
 
 ## Abstract
 Multi-objective programming is used to rebalance the investment weights of the stocks in the
-S&P 500 ETF in SPY . Two models were developed with the following goals in mind, ranked:
+S&P 500 ETF in SPY. Two models were developed with the following goals in mind, ranked:
 limit principal investment, maximize dividend yield, minimize beta and P/E ratio, limit sector
 holding and minimum resource allocation. The GLPK algorithm from Pulp was used to develop
 the models where the second model only included the top 50 dividend paying stocks. Both
